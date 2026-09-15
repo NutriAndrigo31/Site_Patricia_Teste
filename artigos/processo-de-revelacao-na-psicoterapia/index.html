@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/Site_Patricia_Teste/_next/static/css/index.wGPdpYr2.css" data-rsc-css-href="/Site_Patricia_Teste/_next/static/css/index.wGPdpYr2.css" data-precedence="vite-rsc/importer-resources"/>
+</head><body><main class="article-not-found"><h1>Artigo não encontrado</h1><a href="/Site_Patricia_Teste/artigos/>Ver todos os artigos</a></main><!--$--><!--/$--><div hidden=""><!--$--><div hidden=""><title>Artigo não encontrado</title><meta name="description" content="Psicoterapia de orientação psicanalítica para adolescentes e adultos, presencial no Menino Deus, em Porto Alegre, e online."><meta name="author" content="Patrícia Rocha — Psicóloga | CRP 07/6944"><meta property="og:title" content="Artigo não encontrado"><meta property="og:description" content="Psicoterapia de orientação psicanalítica para adolescentes e adultos, presencial no Menino Deus, em Porto Alegre, e online."><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Artigo não encontrado"><meta name="twitter:description" content="Psicoterapia de orientação psicanalítica para adolescentes e adultos, presencial no Menino Deus, em Porto Alegre, e online."></div><!--/$--></div><script>
+  (() => {
+    const maps = "https://www.google.com/maps/search/?api=1&query=Rua%20Bar%C3%A3o%20do%20Triunfo%2C%20720%2C%20sala%20308%2C%20Menino%20Deus%2C%20Porto%20Alegre%2C%20RS%2C%2090130-100";
+    const waze = "https://www.waze.com/ul?q=Rua%20Bar%C3%A3o%20do%20Triunfo%2C%20720%2C%20Menino%20Deus%2C%20Porto%20Alegre%2C%20RS%2C%2090130-100&navigate=yes";
+    const openDirections = () => {
+      const backdrop = document.createElement("div");
+      backdrop.className = "directions-backdrop";
+      backdrop.innerHTML = '<section class="directions-dialog" role="dialog" aria-modal="true" aria-labelledby="directions-title"><button class="directions-close" type="button" aria-label="Fechar">×</button><p class="kicker">Como chegar</p><h2 id="directions-title">Escolha seu aplicativo de navegação.</h2><p>Rua Barão do Triunfo, 720 · sala 308<br>Menino Deus · Porto Alegre/RS</p><div class="directions-options"><a href="' + maps + '" target="_blank" rel="noreferrer"><small>Ver mapa e rotas</small><strong>Google Maps</strong><span>Abrir ↗</span></a><a href="' + waze + '" target="_blank" rel="noreferrer"><small>Navegação em tempo real</small><strong>Waze</strong><span>Abrir ↗</span></a></div></section>';
+      const close = () => { backdrop.remove(); document.body.style.overflow = ""; };
+      backdrop.addEventListener("click", event => { if (event.target === backdrop) close(); });
+      backdrop.querySelector(".directions-close").addEventListener("click", close);
+      document.addEventListener("keydown", function escape(event) { if (event.key === "Escape") { close(); document.removeEventListener("keydown", escape); } });
+      document.body.appendChild(backdrop);
+      document.body.style.overflow = "hidden";
+    };
+    document.querySelectorAll(".inline-location-button,.location-choice-button,.contact-location-button").forEach(button => button.addEventListener("click", openDirections));
+  })();
+  </script></body></html>
